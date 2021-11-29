@@ -8,7 +8,7 @@
 
 print('\n')
 print('~='*20)
-print('*\*/* CALCULE SEU IMC */*\*\n')
+print('*/*\* CALCULE SEU IMC */*\*\n')
 peso = float(input('Informe seu peso (em KG): '))
 altura = float(input('Informe sua altura (em Metros): '))
 imc = peso / (altura**2)

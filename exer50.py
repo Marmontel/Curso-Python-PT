@@ -11,5 +11,5 @@ for num in range(1, 7):
     if val % 2 == 0:
         soma += val
         cont += 1
-print('Você informou {} números e a soma dos números pares foi {}.'.format(cont, soma))
+print('Você informou {} números pares e a soma entre eles é {}.'.format(cont, soma))
 print('~='*20)

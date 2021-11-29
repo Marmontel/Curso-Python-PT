@@ -13,7 +13,7 @@ print('''FORMAS DE PAGAMENTO:
 [ 2 ] À vista no cartão de débito com 5% de desconto.
 [ 3 ] Em até 2x sem juros no cartão de crédito
 [ 4 ] 3x ou mais no cartão com acréscimo de 20%''')
-opcao = int(input('Informe a opção desejada: '))
+opcao = int(input('Informe a opção de pagamento desejada: '))
 if opcao == 1:
     dinheiro = preco - (preco * 0.10)
     print('Pagando à vista você ganha 10% de desconto! De R${:.2f} o produto passa a custar R${:.2f}!'.format(

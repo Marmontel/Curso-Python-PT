@@ -18,7 +18,7 @@ time.sleep(1)
 print('PO!!!')
 print('=-'*20)
 time.sleep(1)
-print('RESULTADO:')
+print('RESULTADO:', end=' ')
 if opcao == computer:
     print('O computador optou pelo mesmo! EMPATE')
 elif opcao == 0 and computer == 1:

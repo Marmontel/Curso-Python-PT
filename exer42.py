@@ -9,13 +9,13 @@ lado_1 = int(input('Primeiro segmento: '))
 lado_2 = int(input('Segundo segmento: '))
 lado_3 = int(input('Terceiro segmento: '))
 if lado_1 < lado_2 + lado_3 and lado_2 < lado_1 + lado_3 and lado_3 < lado_1 + lado_2:
-    print('Os segmentos acima PODEM FORMAR triângulo ', end='')
+    print('Os segmentos acima PODEM FORMAR triângulo ', end=' ')
     if lado_1 == lado_2 == lado_3:
-        print('Equilátero')
+        print('Equilátero.')
     elif lado_1 != lado_2 != lado_3 != lado_1:
-        print('Escaleno')
+        print('Escaleno.')
     else:
-        print('Isósceles')
+        print('Isósceles.')
 else:
     print('Os segmentos acima NÃO PODEM formar triângulo.')
 print('~=¨..'*10)
